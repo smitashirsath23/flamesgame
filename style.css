@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+
+
+}
+
+.container {
+    background-image: url('fire.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.container img {
+    filter: blur(8px);
+}
+
+
+
+.box {
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(5, 5, 247, .6);
+    border: 2px solid rgb(246, 246, 246);
+    top: 30vh;
+    left: 23vw;
+    position: absolute;
+    border-radius: 50px;
+}
+
+#flames {
+    color: rgb(237, 200, 66);
+    font-size: 200px;
+    font-weight: 500;
+    font-family: 'Spicy Rice', cursive;
+    left: 28vh;
+    top: -13vh;
+    position: absolute;
+    border: 3px solid white;
+    padding: 0 15px;
+
+}
+
+#name_ {
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 7vh;
+    width: 15vw;
+    position: absolute;
+    border-radius: 50px;
+    top: 18vh;
+    left: 13vh;
+    outline: none;
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.name label {
+    color: aliceblue;
+    position: relative;
+    font-size: 40px;
+    font-weight: 100;
+    top: 13vh;
+    left: 15vh;
+
+}
+
+#pair {
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 7vh;
+    width: 15vw;
+    position: absolute;
+    border-radius: 50px;
+    top: 18vh;
+    left: 58vh;
+    outline: none;
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.partner label {
+    color: aliceblue;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    top: 13vh;
+    left: 60vh;
+
+}
+
+#chekk {
+    background-color: rgba(237, 200, 66);
+    height: 7vh;
+    width: 15vw;
+    position: absolute;
+    border-radius: 50px;
+    top: 28vh;
+    left: 35vh;
+    outline: none;
+}
+
+span {
+    color: rgb(6, 6, 248, .8);
+    position: absolute;
+    font-size: 55px;
+    font-weight: 300;
+    font-family: 'Spicy Rice', cursive;
+    top: 0.5vh;
+    left: 8vh;
+
+}
+
+.result {
+    position: absolute;
+    background-color: rgb(140, 4, 145);
+    width: 40vw;
+    height: 2vw;
+    font-size: 30px;
+    font-weight: 100;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 50px;
+    top: 41vh;
+    left: 8vh;
+    padding-left: 20px;
+    padding-top: 8px;
+}
